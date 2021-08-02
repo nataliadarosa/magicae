@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-SFCompactDisplay-Regular.ttf">
+            <string>SFCompactDisplay-Regular</string>
+        </array>
+        <array key="NewYorkSmall-Bold.otf">
+            <string>NewYorkSmall-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TelaFinalViewController" customModule="Signo_ao_contra_rio" customModuleProvider="target">
+            <connections>
+                <outlet property="botaoTentarNovamente" destination="biU-dc-mLP" id="MZS-Kj-Gm9"/>
+                <outlet property="botaoVoltarMenu" destination="OHM-fn-gGU" id="59x-8n-55Y"/>
+                <outlet property="labelTitulo" destination="DhP-c3-vFb" id="MzH-XD-P6n"/>
+                <outlet property="textViewDescricao" destination="cfW-nL-yE1" id="aPk-4O-Lxm"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questoes-verde" translatesAutoresizingMaskIntoConstraints="NO" id="2V8-Ne-ts5">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Signo de sagitário" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhP-c3-vFb">
+                    <rect key="frame" x="36" y="118" width="360" height="32.5"/>
+                    <fontDescription key="fontDescription" name="NewYorkSmall-Bold" family="New York Small" pointSize="27"/>
+                    <color key="textColor" name="dourado-escuro"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icone-sagitario" translatesAutoresizingMaskIntoConstraints="NO" id="YA3-hp-8QS">
+                    <rect key="frame" x="63" y="192" width="288" height="306"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="YA3-hp-8QS" secondAttribute="height" multiplier="16:17" id="vjJ-su-E48"/>
+                    </constraints>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cfW-nL-yE1">
+                    <rect key="frame" x="36" y="534" width="342" height="148"/>
+                    <color key="backgroundColor" white="1" alpha="0.14933112530000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text">Sagitário é regido pelo planeta Júpter, que represente a expansão. Principal qualidade é a sinceridade, custumam dizer tudo o que pensam mesmo que isso não agrade a todos, porém em demasia pode ser um empecilho. São expansivos o que os torna cheios de amigos, a frase mais ligado ao signo é "perco o amigo, mas não perco a piada". São divertidos e festeiros, e por isso para ser próximo deste signo é preciso ter energia, são aventureiros, gostam de viajar, sair e sempre incluindo novos amigos. Apesar de apresentar inseguranças as suas escolhas, são otimistas com relação ao futuro, outra característica marcante do planeta, o positivismo.</string>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="SFCompactDisplay-Regular" family="SF Compact Display" pointSize="16"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biU-dc-mLP" customClass="BotaoPadrao" customModule="Signo_ao_contra_rio" customModuleProvider="target">
+                    <rect key="frame" x="18" y="712" width="378" height="56"/>
+                    <color key="backgroundColor" name="verde-claro"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="Ns5-jc-mmV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NewYorkSmall-Bold" family="New York Small" pointSize="24"/>
+                    <state key="normal" title="Tentar novamente">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clicouTentarNovamente:" destination="-1" eventType="touchUpInside" id="rw7-ke-MXj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OHM-fn-gGU" customClass="BotaoPadrao" customModule="Signo_ao_contra_rio" customModuleProvider="target">
+                    <rect key="frame" x="18" y="788" width="378" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="WHa-iV-UAw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NewYorkSmall-Bold" family="New York Small" pointSize="24"/>
+                    <state key="normal" title="Retornar ao menu">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clicouRetornarMenu:" destination="-1" eventType="touchUpInside" id="tVY-lY-V2G"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OHM-fn-gGU" secondAttribute="trailing" constant="18" id="3Se-l7-dkI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="YA3-hp-8QS" secondAttribute="trailing" constant="63" id="40c-YE-JoF"/>
+                <constraint firstItem="YA3-hp-8QS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="63" id="6Kt-66-AEo"/>
+                <constraint firstItem="biU-dc-mLP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="18" id="DWa-DO-2GJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2V8-Ne-ts5" secondAttribute="trailing" id="FQJ-lz-9er"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cfW-nL-yE1" secondAttribute="trailing" constant="36" id="HWC-dS-VM3"/>
+                <constraint firstItem="DhP-c3-vFb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="36" id="Kg9-m9-frC"/>
+                <constraint firstItem="OHM-fn-gGU" firstAttribute="top" secondItem="biU-dc-mLP" secondAttribute="bottom" constant="20" id="MkN-cB-bmN"/>
+                <constraint firstItem="YA3-hp-8QS" firstAttribute="top" secondItem="DhP-c3-vFb" secondAttribute="bottom" constant="41.5" id="Orz-cs-u1S"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="OHM-fn-gGU" secondAttribute="bottom" constant="18" id="PB5-ZS-feT"/>
+                <constraint firstAttribute="bottom" secondItem="2V8-Ne-ts5" secondAttribute="bottom" id="T4Z-Oi-pvi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DhP-c3-vFb" secondAttribute="trailing" constant="18" id="ek7-8V-E1b"/>
+                <constraint firstItem="OHM-fn-gGU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="18" id="gWr-IZ-gjz"/>
+                <constraint firstItem="cfW-nL-yE1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="36" id="oEl-TA-cbO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="leading" secondItem="2V8-Ne-ts5" secondAttribute="leading" id="ozn-pA-I4S"/>
+                <constraint firstItem="biU-dc-mLP" firstAttribute="top" secondItem="cfW-nL-yE1" secondAttribute="bottom" constant="30" id="pcC-2e-SlO"/>
+                <constraint firstItem="cfW-nL-yE1" firstAttribute="top" secondItem="YA3-hp-8QS" secondAttribute="bottom" constant="36" id="qrD-oM-5z6"/>
+                <constraint firstAttribute="top" secondItem="2V8-Ne-ts5" secondAttribute="top" id="tBr-4A-wJa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="biU-dc-mLP" secondAttribute="trailing" constant="18" id="uK3-rR-h1y"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="DhP-c3-vFb" secondAttribute="top" constant="-74" id="xj7-VN-7Rc"/>
+            </constraints>
+            <point key="canvasLocation" x="8.6956521739130448" y="90.401785714285708"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="OHM-fn-gGU">
+            <size key="intrinsicContentSize" width="226" height="41"/>
+        </designable>
+        <designable name="biU-dc-mLP">
+            <size key="intrinsicContentSize" width="227" height="41"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="icone-sagitario" width="250" height="307"/>
+        <image name="questoes-verde" width="375" height="812"/>
+        <namedColor name="dourado-escuro">
+            <color red="0.6470000147819519" green="0.51800000667572021" blue="0.35699999332427979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="verde-claro">
+            <color red="0.093999996781349182" green="0.31000000238418579" blue="0.36100000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

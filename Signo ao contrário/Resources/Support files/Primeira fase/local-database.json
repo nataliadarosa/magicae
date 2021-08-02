@@ -1,0 +1,181 @@
+[
+    {
+
+        "titulo": "Fogo & Terra",
+        "pergunta": "Suas reações diante a situações inesperadas costumam ser mais...",
+        "opcoes": [
+            {
+                "titulo": "Entusiasmadas",
+                "elemento": "fogo"
+            },
+            {
+                "titulo": "Ligadas a praticidade",
+                "elemento": "terra"
+            }
+        ],
+        "imagemFundo": "questoes-azul",
+        "icone": "icone-fogo-terra",
+        "corTema": "azul-claro"
+        
+    },
+    
+    {
+
+        "titulo": "Fogo & Terra",
+        "pergunta": "As características da sua personalidade ou forma de pensar, se aproximam mais de serem...",
+        "opcoes": [
+            {
+                "titulo": "Criatividade e autoestisma",
+                "elemento": "fogo"
+            },
+            {
+                "titulo": "Capacidade em lidar com a realidade",
+                "elemento": "terra"
+            }
+        ],
+        "imagemFundo": "questoes-azul",
+        "icone": "icone-fogo-terra",
+        "corTema": "azul-claro"
+        
+    },
+    
+    {
+
+        "titulo": "Fogo & Terra",
+        "pergunta": "Sobre a vida, você tende a responder mais a questões associadas a...",
+        "opcoes": [
+            {
+                "titulo": "Visão idealista e colorida",
+                "elemento": "fogo"
+            },
+            {
+                "titulo": "Visão mais material e realista",
+                "elemento": "terra"
+            }
+        ],
+        "imagemFundo": "questoes-azul",
+        "icone": "icone-fogo-terra",
+        "corTema": "azul-claro"
+        
+    },
+    
+    {
+
+        "titulo": "Água & ar",
+        "pergunta": "Você corresponde mais a...",
+        "opcoes": [
+            {
+                "titulo": "Emoções suas e dos outros",
+                "elemento": "agua"
+            },
+            {
+                "titulo": "Intelectualidade e comunicação",
+                "elemento": "ar"
+            }
+        ],
+        "imagemFundo": "questoes-azul",
+        "icone": "icone-ar-agua",
+        "corTema": "azul-claro"
+        
+    },
+    
+    {
+
+        "titulo": "Água & ar",
+        "pergunta": "Você costuma ser mais...",
+        "opcoes": [
+            {
+                "titulo": "Paciente, compassivos e empático",
+                "elemento": "agua"
+            },
+            {
+                "titulo": "Ativo, sociável e animado",
+                "elemento": "ar"
+            }
+        ],
+        "imagemFundo": "questoes-azul",
+        "icone": "icone-ar-agua",
+        "corTema": "azul-claro"
+        
+    },
+    
+    {
+
+        "titulo": "Água & ar",
+        "pergunta": "Dentre as descrições abaixo, qual te descreve melhor?",
+        "opcoes": [
+            {
+                "titulo": "Emocional, contido e pouco impulsivo",
+                "elemento": "agua"
+            },
+            {
+                "titulo": "Indisciplinado, livre e movimentado",
+                "elemento": "ar"
+            }
+        ],
+        "imagemFundo": "questoes-azul",
+        "icone": "icone-ar-agua",
+        "corTema": "azul-claro"
+        
+    },
+    
+    {
+
+        "titulo": "Fogo & Água",
+        "pergunta": "Dentre suas características negativas, escolha a opção que melhor te descreve.",
+        "opcoes": [
+            {
+                "titulo": "Temperamental e explosivo",
+                "elemento": "fogo"
+            },
+            {
+                "titulo": "Dificuldade em perdoar",
+                "elemento": "agua"
+            }
+        ],
+        "imagemFundo": "questoes-azul",
+        "icone": "icone-fogo-agua",
+        "corTema": "azul-claro"
+        
+    },
+    
+    {
+
+        "titulo": "Fogo & Água",
+        "pergunta": "Você é mais ligado a...",
+        "opcoes": [
+            {
+                "titulo": "Paixão e calorosidade",
+                "elemento": "fogo"
+            },
+            {
+                "titulo": "Intuição e emoção",
+                "elemento": "agua"
+            }
+        ],
+        "imagemFundo": "questoes-azul",
+        "icone": "icone-fogo-agua",
+        "corTema": "azul-claro"
+        
+    },
+    
+    {
+
+        "titulo": "Fogo & Água",
+        "pergunta": "É facíl para você mudar o rumo do sua vida quando quer ou decide?",
+        "opcoes": [
+            {
+                "titulo": "Sim, em qualquer área tenho iniciativa",
+                "elemento": "fogo"
+            },
+            {
+                "titulo": "Fica apegado a opinião dos outros",
+                "elemento": "agua"
+            }
+        ],
+        "imagemFundo": "questoes-azul",
+        "icone": "icone-fogo-agua",
+        "corTema": "azul-claro"
+        
+    }
+]

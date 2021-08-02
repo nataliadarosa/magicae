@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-SFCompactDisplay-Regular.ttf">
+            <string>SFCompactDisplay-Regular</string>
+        </array>
+        <array key="NewYorkSmall-Bold.otf">
+            <string>NewYorkSmall-Bold</string>
+        </array>
+        <array key="NewYorkSmall-Medium.otf">
+            <string>NewYorkSmall-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TelaInicialViewController" customModule="Signo_ao_contra_rio" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fundo-tela-inicial" translatesAutoresizingMaskIntoConstraints="NO" id="x4J-eI-ntm">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Qual signo combina com sua personalidade" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2B-sT-Q2y">
+                    <rect key="frame" x="37" y="264" width="316" height="65.333333333333314"/>
+                    <fontDescription key="fontDescription" name="NewYorkSmall-Bold" family="New York Small" pointSize="28"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lod-6S-wdZ">
+                    <rect key="frame" x="37" y="347.33333333333331" width="316" height="119"/>
+                    <string key="text">Neste quiz você fará o caminho inverso  ao que os signos se propõem a ser.  Primeiro vamos definir quais dos  4 elementos você se encaixa melhor e postariormente associar um dos  3 signos dentro do elemento.</string>
+                    <fontDescription key="fontDescription" name="SFCompactDisplay-Regular" family="SF Compact Display" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kd-2v-oI3" customClass="BotaoPadrao" customModule="Signo_ao_contra_rio" customModuleProvider="target">
+                    <rect key="frame" x="37" y="502" width="316" height="57"/>
+                    <color key="backgroundColor" name="verde-claro"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="57" id="Rbj-op-HGa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="NewYorkSmall-Medium" family="New York Small" pointSize="22"/>
+                    <state key="normal" title="Iniciar">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="clicouIniciar:" destination="-1" eventType="touchUpInside" id="MVj-gS-uc0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Lod-6S-wdZ" firstAttribute="top" secondItem="g2B-sT-Q2y" secondAttribute="bottom" constant="18" id="4GU-zz-dvx"/>
+                <constraint firstItem="4kd-2v-oI3" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="CfU-Xn-Cjf"/>
+                <constraint firstItem="4kd-2v-oI3" firstAttribute="width" secondItem="Lod-6S-wdZ" secondAttribute="width" id="Cfb-iT-1AU"/>
+                <constraint firstItem="g2B-sT-Q2y" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="220" id="FRf-q8-pE8"/>
+                <constraint firstItem="g2B-sT-Q2y" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="KKo-ms-yvv"/>
+                <constraint firstItem="x4J-eI-ntm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ka2-M6-cL7"/>
+                <constraint firstAttribute="bottom" secondItem="x4J-eI-ntm" secondAttribute="bottom" id="LvQ-Cr-aQN"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="x4J-eI-ntm" secondAttribute="trailing" id="dNk-Ss-WJl"/>
+                <constraint firstItem="Lod-6S-wdZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="37" id="dhv-SD-ve4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Lod-6S-wdZ" secondAttribute="trailing" constant="37" id="fwO-i2-yt0"/>
+                <constraint firstItem="x4J-eI-ntm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qI3-Vo-b6a"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="g2B-sT-Q2y" secondAttribute="trailing" constant="37" id="vDY-fJ-Ni6"/>
+                <constraint firstItem="4kd-2v-oI3" firstAttribute="top" secondItem="Lod-6S-wdZ" secondAttribute="bottom" constant="35.666666666666686" id="wjJ-8Y-YaE"/>
+            </constraints>
+            <point key="canvasLocation" x="41.53846153846154" y="114.45497630331754"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="4kd-2v-oI3">
+            <size key="intrinsicContentSize" width="59" height="38"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="fundo-tela-inicial" width="375" height="930"/>
+        <namedColor name="verde-claro">
+            <color red="0.093999996781349182" green="0.31000000238418579" blue="0.36100000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

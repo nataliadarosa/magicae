@@ -1,0 +1,73 @@
+[
+    {
+
+        "titulo": "Signos de fogo",
+        "pergunta": "Selecione a alternativa que melhor te descreve.",
+        "opcoes": [
+            {
+                "titulo": "Amigável, otimista e livre",
+                "elemento": "resposta1"
+            },
+            {
+                "titulo": "Vaidoso, afetivo e caloroso",
+                "elemento": "resposta2"
+            },
+            {
+                "titulo": "Aventureiro, confiante e ousado",
+                "elemento": "reposta3"
+            }
+        ],
+        "imagemFundo": "questoes-verde",
+        "icone": "icone-signos-fogo",
+        "corTema": "verde-claro"
+        
+    },
+    
+    {
+
+        "titulo": "Signos de fogo",
+        "pergunta": "Seu defeito é...",
+        "opcoes": [
+            {
+                "titulo": "Sinceridade e falar demais",
+                "elemento": "resposta1"
+            },
+            {
+                "titulo": "Se sentir necessário",
+                "elemento": "resposta2"
+            },
+            {
+                "titulo": "Impulsividade e controlador",
+                "elemento": "reposta3"
+            }
+        ],
+        "imagemFundo": "questoes-verde",
+        "icone": "icone-signos-fogo",
+        "corTema": "verde-claro"
+        
+    },
+    
+    {
+
+        "titulo": "Signos de fogo",
+        "pergunta": "O que as outras pessoas mais ressaltam de suas características é...",
+        "opcoes": [
+            {
+                "titulo": "Generosidade",
+                "elemento": "resposta1"
+            },
+            {
+                "titulo": "Extroversão",
+                "elemento": "resposta2"
+            },
+            {
+                "titulo": "Carater sorridente",
+                "elemento": "reposta3"
+            }
+        ],
+        "imagemFundo": "questoes-verde",
+        "icone": "icone-signos-fogo",
+        "corTema": "verde-claro"
+        
+    }
+]
